@@ -1,6 +1,6 @@
 {
   "name": "@schmolie/test-package",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "test package",
   "main": "index.js",
   "scripts": {
