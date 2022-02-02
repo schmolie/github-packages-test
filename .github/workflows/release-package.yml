@@ -21,9 +21,9 @@ jobs:
           scope: '@schmolie'
 
       - name: Installing dependencies
-        run: npm ci
+        run: yarn
 
       - name: Publishing
-        run: npm publish
+        run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
